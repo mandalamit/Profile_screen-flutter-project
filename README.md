@@ -1,6 +1,7 @@
 # my_profile
 
 A new Flutter application.
+![Screenshot_1617875392](https://user-images.githubusercontent.com/25777690/114006265-ef6a7f00-987d-11eb-90dc-51286e1f1459.png)
 
 ## Getting Started
 
