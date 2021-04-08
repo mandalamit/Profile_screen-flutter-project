@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter_svg/flutter_svg.dart';
 
 class ProfilePic extends StatelessWidget {
   const ProfilePic({
@@ -9,15 +8,19 @@ class ProfilePic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 115,
-      width: 115,
+      height: 100,
+      width: 100,
       child: Stack(
         fit: StackFit.expand,
         // ignore: deprecated_member_use
         overflow: Overflow.visible,
         children: [
-          CircleAvatar(
-            backgroundImage: AssetImage("images/img.jpg"),
+          Container(
+            margin: EdgeInsets.only(top: 10.0),
+            child: CircleAvatar(
+              radius: 50,
+              backgroundImage: AssetImage("images/img.jpg"),
+            ),
           ),
           Positioned(
             right: -16,
